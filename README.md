@@ -20,11 +20,11 @@ emaint sync -r gentoo-mint
 emerge -a mint-xfwm4-themes
 ```
 
-For others users (Linux Mint, Ubuntu, Arch Linux, etc):
+For other users (Linux Mint, Ubuntu, Arch Linux, etc):
 ```bash
 curl -OL https://github.com/hoshino873/mint-xfwm4-themes/releases/download/2.1.6/mint-xfwm4-themes-2.1.6.tar.gz
 tar xvf mint-xfwm4-themes-2.1.6.tar.xz
-cp -avR mint-xfwm4-themes-2.1.6/usr/themes/* /usr/themes/
+cp -avR mint-xfwm4-themes-2.1.6/usr/share/themes/* /usr/share/themes/
 ```
 ## Screenshot
 ![dark.png](/assets/images/dark.png)
