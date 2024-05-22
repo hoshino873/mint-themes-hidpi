@@ -1,0 +1,28 @@
+name: Release
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - id: do-build
+      name: Run .github/actions/do-build
+      uses: ./.github/actions/do-build
+
+    - name: Publish an artifact
+      run: |
+        version=${GITHUB_REPOSITORY#*/}-${GITHUB_REF_NAME}
+        archive=${version}.tar.gz
+
+        tar -czf ${archive} ${{ steps.do-build.outputs.output-path }} \
+          --transform s:^${{ steps.do-build.outputs.output-path }}:${version}:
+
+        gh release upload ${GITHUB_REF_NAME} ${archive}
+      env:
+        GH_TOKEN: ${{ github.token }}

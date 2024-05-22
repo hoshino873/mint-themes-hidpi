@@ -1,0 +1,16 @@
+outputs:
+  output-path:
+    value: hidpi/build
+
+runs:
+  using: composite
+
+  steps:
+  - name: Install dependencies
+    run: sudo apt install inkscape optipng
+    shell: bash
+
+  - name: Build themes
+    working-directory: hidpi
+    run: ./build.sh
+    shell: bash

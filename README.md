@@ -1,3 +1,6 @@
+[![CI](https://github.com/hoshino873/mint-xfwm4-themes/actions/workflows/ci.yml/badge.svg)](https://github.com/hoshino873/mint-xfwm4-themes/actions/workflows/ci.yml)
+[![Release](https://github.com/hoshino873/mint-xfwm4-themes/actions/workflows/release.yml/badge.svg)](https://github.com/hoshino873/mint-xfwm4-themes/actions/workflows/release.yml)
+
 # mint-xfwm4-themes
 A fork of mint-themes repository adding support for HiDPI desktop environment on Xfwm4. This is created for [gentoo-mint repository](https://github.com/hoshino873/gentoo-mint).
 
@@ -31,4 +34,3 @@ cp -av mint-xfwm4-themes-2.1.6/usr/share/themes/* ~/.local/share/themes # only f
 ## Screenshot
 ![dark.png](/assets/images/dark.png)
 ![light.png](/assets/images/light.png)
-
