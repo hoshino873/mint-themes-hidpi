@@ -1,3 +1,46 @@
+mint-themes (2.2.1) xia; urgency=medium
+
+  * cinnamon: Add shadows around popupmenus
+  * cinnamon: Add a border around focused dialog buttons
+  * cinnamon: Improve dialog button borders
+  * cinnamon: Add styling for entry hint text and password peek icon
+  * cinnamon: Add styling for endSession dialog lists and items
+  * cinnamon: Remove incomplete runDialog styling in Mint-X
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 06 Dec 2024 12:00:52 +0000
+
+mint-themes (2.2.0) xia; urgency=medium
+
+  * cinnamon: Darken switch widget
+  * cinnamon: Update thumbnails
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 29 Nov 2024 15:22:18 +0000
+
+mint-themes (2.1.9) xia; urgency=medium
+
+  [ Clement Lefebvre ]
+  * Remove "Linux Mint" Cinnamon theme
+  * cinnamon: Remove 0% mix calls
+  * cinnamon: Let the panel get its own color
+  * cinnamon: rename sass variable
+  * cinnamon: remove obsolete section
+  * cinnamon: Darken theme
+  * cinnamon: Remove borders on popovers
+  * cinnamon: Introduce radius, subtle separators, indented submenus
+  * cinnamon: Fix wifi/battery titles
+  * cinnamon: Apply radius to calendar box
+  * cinnamon: Fix workspace switcher
+  * cinnamon: Define fg_color, simplify applet borders
+  * cinnamon: Lighten up the light panel
+  * cinnamon: Apply radius to calendar
+  * cinnamon: Adapt to new 6.4 dialogs/osd
+  * gtk3: Darken terminal to blend with the titlebar
+
+  [ Double-A-92 ]
+  * Create README.md and describe how to add a new theme (#442)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 26 Nov 2024 12:08:33 +0000
+
 mint-themes (2.1.8) wilma; urgency=medium
 
   [ Michael Webster ]
